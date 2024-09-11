@@ -1,0 +1,181 @@
+body{
+    background-size: cover;
+}
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.head
+{
+    width: 100%;
+    height: 100vh;
+   background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/10995.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow:hidden;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar
+{
+    width: 85%;
+    height: 15%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content button{
+    color:#fbfcfd;
+    padding:10px 25px;
+    background: white;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    bottom: 25%;
+    
+}
+.content button span
+{
+    color: rgb(202, 92, 92);
+    border-right: 0%;
+    padding-right: 0%;
+}
+    
+.navbar button
+{
+    color:#fbfcfd;
+    padding:10px 25px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 30px;
+    cursor: pointer; 
+}
+  
+  
+
+.content
+{
+    color:#fbfcfd;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+}
+h1{
+    font-size:60px;
+    line-height: 60px;
+}
+.menu
+{
+    display: block;
+    width: 25px;
+    margin:40px auto 0;
+    cursor: pointer;
+}
+.side-bar
+{
+    width: 50px;
+    height: 100vh;
+    
+    background: transparent;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.side-bar a
+{
+    color: white;
+}
+.social-links img, .useful-links img
+{
+width: 25px;
+margin: 5px auto;
+cursor: pointer;
+
+
+}
+.social-links
+{
+    color: white;
+width: 50px;
+text-align: center;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+}
+.useful-links
+{
+    color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom:30px;
+}
+ 
+ 
+
+ @media screen and (max-width:600px)
+{
+    h1{
+        font-size:36px;
+        line-height: 30px;
+        color:red;
+    }
+.side-bar
+{
+    width: 100%;
+    height: 50px;
+    top:auto;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+.social-links
+{
+width: auto;
+text-align: center;
+position: unset;
+
+transform: none;
+}
+.useful-links
+{
+    width: auto;
+  
+    position: unset;
+}
+.menu{
+    width: 18px;
+    margin:40px;
+ 
+}
+.head
+{
+    width: 100%;
+    height: 100vh;
+     background-image: url(https://www.hdwallpapers.in/thumbs/2021/google_in_colorful_design_background_hd_google-t2.jpg);  
+   /* background-image: url(https://c4.wallpaperflare.com/wallpaper/992/611/674/mozilla-firefox-google-minimalism-google-chrome-wallpaper-preview.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow:hidden;
+}
+
+}
+/* tablet */
+@media screen and (max-width:900px) and (min-width:600px)
+{
+
+}
